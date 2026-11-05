@@ -1,0 +1,11 @@
+header{
+    text-align: center;
+    background-color: rgba(55, 55, 247, 0.774);
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0%;
+}
