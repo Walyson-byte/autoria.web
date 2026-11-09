@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+.noticia {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.noticia img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.categoria {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.conteudo h2 {
+  margin: 8px 0px;
+  font-size: 22px;
+}
+
+.conteudo p {
+  color: #666;
+  font-size: 14px;
+}
+
+.conteudo a {
+  color: #2878d5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.conteudo a:hover{
+    text-decoration: underline;
+}
