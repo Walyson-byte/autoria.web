@@ -7,8 +7,8 @@ body{
 
 header{
     text-align: center;
-    background-color: rgba(55, 55, 247, 0.774);
-    padding: 5px 0px;
+    background-image: linear-gradient(to bottom, rgba(58, 58, 255, 0.753), rgb(71, 71, 255));
+    padding: 10px 0px;
 }
 
 nav ul{
@@ -29,67 +29,8 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.secao1{
-    margin: 51px 0px 30px 5px;
-    text-decoration: underline;
-    font-size: 2em;
-    font-weight: bolder;
-    color: #f7d033;
-}
+/* AQUI EM CIMA TERMINA O CABEÇALHO */
 
-.artigo1{
-    margin: 0px 0px 10px 7px;
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-article p{
-    text-align: justify;
-    text-indent: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-
-article{
-    margin: 0px 7px;
-    text-align: center;
-}
-
-article img{
-    border: 5px solid black;
-    margin: 5px auto -1px auto;
-    width: 450px;
-}
-
-.pokemonnew{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    margin: 5px 330px 0px -2px;
-    text-decoration: none;
-    color: rgb(64, 64, 221);
-}
-
-.secao2{
-    margin: 51px 0px 30px 5px;
-    text-decoration: underline;
-    font-size: 2em;
-    font-weight: bolder;
-}
-
-.artigo2{
-    margin: 0px 0px 10px 7px;
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.artigo3{
-    margin: 0px 0px 10px 7px;
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5em;
-    font-weight: bold;
+main{
+    width: 80%;
 }
