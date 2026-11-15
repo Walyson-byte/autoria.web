@@ -1,10 +1,9 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body{
     margin: 0px;
-    background-color: rgba(0, 0, 255, 0.267);
+    background-color: #F4F1E8;
 }
 
 header{
@@ -54,20 +53,15 @@ main{
 }
 
 .artigo1 h1{
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 23px ;
     text-align: left;
     margin: 15px auto 20px auto;
 }
 
 .artigo1 h2{
     text-align: left;
-    background-image: linear-gradient(to right, rgba(58, 58, 255, 0.651) 20%, white);
     margin: 30px 0px 20px 0px;
-    padding: 8px 0px 8px 10px;
-    border-radius: 8px;
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 18px;
+    padding: 3px 0px 3px 5px;
+    border-radius: 5px;
 }
 
 .artigo1 p{
@@ -80,23 +74,25 @@ main{
     width: 400px;
     border-radius: 15px;
     box-shadow: 2px 1px 5px 0px;
-    margin: 5px auto;
+    margin: 15px auto;
 }
 
 iframe{
     margin: 10px 0px 20px 0px;
     border-radius: 20px;
+    width: 445px;
+    height: 315px;
 }
 
 /* AQUI EM CIMA TERMINA O CONTEÚDO PRINCIPAL */
 
-.noticia {
+.windwaves {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
 
-.noticia img {
+.windwaves img {
   width: 250px;
   height: 150px;
   object-fit: cover;
@@ -108,24 +104,75 @@ iframe{
   font-weight: bold;
 }
 
-.conteudo h2 {
+.conteudo1 h2 {
   margin: 8px 0px;
   font-size: 22px;
 }
 
-.conteudo p {
+.conteudo1 p {
   color: #666;
   font-size: 14px;
 }
 
-.conteudo a {
-  color: #2878d5;
-  text-decoration: none;
+
+
+/* NOTICIA 1 ACABA AQUI */
+
+.pokemontcg {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.pokemontcg img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.categoria {
+  font-size: 12px;
   font-weight: bold;
 }
 
-.conteudo a:hover{
-    text-decoration: underline;
+.conteudo2 h2 {
+  margin: 8px 0px;
+  font-size: 22px;
 }
-    text-decoration: underline;
+
+.conteudo2 p {
+  color: #666;
+  font-size: 14px;
+}
+
+
+/* NOTICIA 2 ACABA AQUI */
+
+.pokemonniver {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.pokemonniver img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.categoria {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.conteudo3 h2 {
+  margin: 8px 0px;
+  font-size: 22px;
+}
+
+.conteudo3 p {
+  color: #666;
+  font-size: 14px;
 }
