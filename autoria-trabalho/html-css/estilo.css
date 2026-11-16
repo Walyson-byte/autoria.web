@@ -17,6 +17,7 @@ header p{
     margin: 18px auto;
     color: rgb(255, 203, 5);
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 nav ul{
     display: flex;
@@ -26,15 +27,20 @@ nav ul{
     margin: 0px 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    
 }
 
 nav a{
     text-decoration: none;
     color: rgb(255, 203, 5);
+    font-weight: bold;
+    transition-duration: 0.3s;
 }
 
 nav a:hover{
-    text-decoration: underline;
+    background-color: rgb(53, 53, 253);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 /* AQUI EM CIMA TERMINA O CABEÇALHO */
@@ -50,6 +56,18 @@ main{
 .artigo1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.artigo1 a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(119, 119, 250);
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.artigo1 a:hover{
+    text-decoration: underline;
 }
 
 .artigo1 h1{
@@ -80,9 +98,24 @@ main{
 iframe{
     margin: 10px 0px 20px 0px;
     border-radius: 20px;
-    width: 445px;
-    height: 315px;
 }
+
+
+.imginsignas {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.imginsignas img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* AQUI EM CIMA TERMINA A PARTE DE INSIGNAS */
 
 /* AQUI EM CIMA TERMINA O CONTEÚDO PRINCIPAL */
 
